@@ -6,8 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class WelcomeController {
     @GetMapping("/welcome")
-    public String welCome()
-    {
-        return "SpringBoot deployment Successfull";
+    public String welCome() {
+        return "SpringBoot deployment Successfully through Aws";
     }
 }
